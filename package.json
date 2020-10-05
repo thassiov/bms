@@ -1,0 +1,23 @@
+{
+  "name": "bms",
+  "version": "0.1.0",
+  "description": "behold... my stuff!",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev:start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^2.6.1",
+    "dotenv": "^8.2.0",
+    "got": "^11.7.0",
+    "image-size": "^0.9.1",
+    "merge-images": "^2.0.0",
+    "text2png": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
